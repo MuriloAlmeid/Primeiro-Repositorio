@@ -1,2 +1,11 @@
 Alteração legal
 essa alteracao e bem legal, mas muito legal mesmo
+create database sprint1;
+
+use database sprint1;
+
+create table atleta (idatleta int primary key auto_increment,
+nome varchar (50),
+modalidade varchar (40),
+qtdmedalhas varchar (30)
+);
