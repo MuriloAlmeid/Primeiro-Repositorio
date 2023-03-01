@@ -9,3 +9,11 @@ nome varchar (50),
 modalidade varchar (40),
 qtdmedalhas varchar (30)
 );
+
+select*from atleta;
+
+insert into atleta (nome, modalidade, qtdmedalha) values
+  ('bruno', 'futebol','3'),
+  ('bruno', 'futebol','3'),
+  ('bruno', 'futebol','3');
+  
